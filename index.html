@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Objetos JavaScript</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <script>
+        const pessoa = {
+            nome: "joão",
+            idade: 30,
+            saudacao: function() {
+                console.log("Olá, meu nome é " + this.nome);
+            }
+        };
+
+        pessoa.saudacao(); // Chama o método saudacao do objeto pessoa
+    </script>
+</body>
+</html>
+
+
